@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #0d1b2a;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background: #1444b5;
+  background: linear-gradient(139deg,rgba(20, 68, 181, 1) 0%, rgba(181, 14, 156, 1) 21%, rgba(255, 217, 0, 1) 100%);
+  height: 100vh;
+}
+
+.carta-dia-namorados {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  font-family: 'Georgia', serif;
+  color: #222;
+  line-height: 1.8;
+}
+
+.carta-dia-namorados h2 {
+  text-align: center;
+  color: #b10e9c;
+  margin-bottom: 20px;
+}
+
+.carta-dia-namorados .assinatura {
+  text-align: right;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.timer-namoro {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  color: #222;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
