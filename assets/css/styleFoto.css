@@ -124,7 +124,7 @@ body {
 }
 
 /* Responsividade para iPhone 13 (max-width ~390px) */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
   .navbar {
     padding: 15px 15px;
   }

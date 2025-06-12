@@ -126,7 +126,7 @@ h2 {
 }
 
 /* Media Query para iPhone 13 */
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 430px) {
   .container {
     padding: 20px 15px;
   }
