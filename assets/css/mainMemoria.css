@@ -124,3 +124,37 @@ h2 {
   transform: rotateY(180deg);
 }
 
+/* Media Query para iPhone 13 */
+@media only screen and (max-width: 390px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  .reset {
+    width: 100%;
+    font-size: 1.2em;
+    padding: 12px 10px;
+  }
+
+  .game {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    gap: 8px;
+  }
+
+  .item {
+    width: calc((100% - 30px) / 4); /* 4 itens por linha, considerando gap */
+    height: auto;
+    aspect-ratio: 1 / 1;
+    font-size: 3em;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links li a {
+    font-size: 0.9em;
+  }
+}

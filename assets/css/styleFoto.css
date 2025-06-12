@@ -122,3 +122,62 @@ body {
   align-items: center;
   
 }
+
+/* Responsividade para iPhone 13 (max-width ~390px) */
+@media only screen and (max-width: 390px) {
+  .navbar {
+    padding: 15px 15px;
+  }
+
+  .nav-logo {
+    font-size: 18px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links li a {
+    font-size: 0.9em;
+  }
+
+  .carousel-container {
+    padding-top: 20px;
+  }
+
+  .carousel-container img {
+    max-width: 100%;
+    max-height: 300px;
+  }
+
+  .buttons button {
+    padding: 8px 15px;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+
+  .foto {
+    width: 90%;
+    height: auto;
+    max-height: 300px;
+  }
+
+  .music-controls {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .music-controls button {
+    padding: 8px 15px;
+    font-size: 16px;
+  }
+
+  .music-controls input[type="range"] {
+    width: 80px;
+  }
+
+  .range-button {
+    height: 40px;
+    font-size: 0.9em;
+  }
+}

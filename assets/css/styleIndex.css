@@ -77,3 +77,30 @@ button {
   padding: 30px;
 }
 
+/* Media Query para iPhone 13 */
+@media only screen and (max-width: 390px) {
+  .login-container {
+    padding: 15px 20px;
+    max-width: 100%;
+  }
+  
+  .navbar {
+    padding: 15px 15px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links li a {
+    font-size: 0.9em;
+  }
+
+  .nav-logo {
+    font-size: 18px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+}

@@ -40,7 +40,7 @@
 body {
   background: #1444b5;
   background: linear-gradient(139deg,rgba(20, 68, 181, 1) 0%, rgba(181, 14, 156, 1) 21%, rgba(255, 217, 0, 1) 100%);
-  height: 100vh;
+  height: max-content;
 }
 
 .carta-dia-namorados {
@@ -78,3 +78,45 @@ body {
   max-width: 500px;
 }
 
+/* Media Query para iPhone 13 */
+@media only screen and (max-width: 390px) {
+  .navbar {
+    padding: 15px 15px;
+  }
+
+  .nav-logo {
+    font-size: 18px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links li a {
+    font-size: 0.9em;
+  }
+
+  .carta-dia-namorados {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px 15px;
+    font-size: 0.95em;
+  }
+
+  .carta-dia-namorados h2 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+  }
+
+  .carta-dia-namorados .assinatura {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+
+  .timer-namoro {
+    max-width: 90%;
+    padding: 15px 10px;
+    font-size: 1em;
+    margin: 15px auto;
+  }
+}
